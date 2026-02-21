@@ -2,8 +2,12 @@
 
 int main()
 {
-	for (int i = 0l; i < 5; ++i)
-		printf("Hello World!\n");
+	int num;
+
+	scanf("%d", &num);
+
+	for (int i = 0; i < num; ++i)
+		printf("i = %d: Hello World!\n", i);
 
 	return 0;
 }
